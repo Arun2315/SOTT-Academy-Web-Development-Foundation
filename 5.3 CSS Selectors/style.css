@@ -1,27 +1,23 @@
-ol {
-  margin-left: -40px;
-  margin-top: -20px;
-  list-style-position: inside;
-}
-
-/* Write your CSS below, don't change the rules above. */
-h1, h2{
-  text-align: center;
-}
-p{
-  color: red
- }
- .note{
+*{
   font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
+  
  }
- .note[id-selector-demo]{
+ ol{
+  text-align: center
+ }
+.note1 {
+  color: red;
+  
+}
+#id1{
   color: green;
-
-
- }
-
- li[value="4"]{
+}
+li[value="4"]{
   color: blue;
-
- }
+}
+ol {
+  
+list-style-position: inside;
+}

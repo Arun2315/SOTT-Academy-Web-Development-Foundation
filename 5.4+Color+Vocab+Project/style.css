@@ -1,25 +1,22 @@
 img{
+    width: 200px;
     height: 200px;
-    weight:200px;
-}
-
-.color-title {
-    font-weight: normal;
-
 }
 
 #red{
-    color : red
+color: red;
 }
 #blue{
-    color : blue
+    color: rgb(4, 134, 255);
+
 }
 #orange{
-    color : orange
+    color: orange;
 }
 #green{
-    color : green
+    color: green;
+
 }
-#yellow{
-    color : yellow
+h2[id="yellow"]{
+    color: yellow;
 }
