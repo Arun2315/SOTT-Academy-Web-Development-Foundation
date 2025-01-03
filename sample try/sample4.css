@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(51, 51, 51);
+    color: #ffffff;
+
+}
+
+a{
+    color: #ffffff; 
+    padding: 10px;
+    text-decoration: none;
+
+    
+}
+.navigation {
+    float: right;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 23px;
+}
+
+.one>p{
+    margin-top: 150px;
+    margin-left: 550px;
+    display: inline-block;
+font-size: 80px;
+font-family: sans-serif;
+font-weight:lighter;
+}
+
+.search{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    padding: 40px;
+    margin-left: 250px;
+
+}
+.search input[type=search]{
+    font-size: 25px;
+    width: 800px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+input::placeholder{
+    font-size: 15px;
+    padding-left: 50px;
+     bottom: 30px;
+    
+}
+.search i{
+    position: absolute;
+    margin: 20px ;
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+}
+#plus{
+    font-size: 30px;
+    color: #050505;
+    position: relative;
+}
+
+.fa-user-plus{
+    background-color: rgb(160, 160, 160);
+    border-radius: 50%;
+    position: absolute;
+    border-width: 1000px;
+    padding: 10px;
+    
+
+}
+footer .two{
+    font-size: 30px;
+    width: 200px;
+    border-radius: 15px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 20px;
+    background-color: #797979;
+  
+}
+
+.two::placeholder{
+    color: #050505;
+    font-size: 15px;
+}
